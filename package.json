@@ -14,7 +14,7 @@
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/bulma": "^1.2.1",
     "bulma-timeline": "^3.0.4",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.8.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.10.1"

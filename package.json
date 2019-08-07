@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-demo-bulma",
+  "version": "1.0.0",
+  "description": "My legendary Nuxt.js project",
+  "author": "Bianco, Leonardo",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/bulma": "^1.2.1",
+    "bulma-timeline": "^3.0.4",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.1"
+  }
+}

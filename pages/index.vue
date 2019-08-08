@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
-      <div class="navbar-item">Leo's page</div>
+      <div class="navbar-item has-text-weight-bold"><i class="fas fa-lg fa-code has-margin-right"></i>Leo's page</div>
     </nav>
 
     <Banner />
@@ -10,6 +10,7 @@
 
     <Skills />
 
+    <Footer />
   </div>
 </template>
 
@@ -17,12 +18,15 @@
 import Timeline from "~/components/Timeline.vue";
 import Banner from "~/components/Banner.vue";
 import Skills from "~/components/Skills.vue";
+import Footer from "~/components/Footer.vue";
+
 
 export default {
   components: {
     Timeline,
     Banner,
-    Skills
+    Skills,
+    Footer
   }
 };
 </script>
@@ -44,5 +48,9 @@ export default {
 
 .small-border-radius {
   border-radius: 3px;
+}
+
+.has-margin-right {
+  margin-right: 0.5em;
 }
 </style>

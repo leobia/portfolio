@@ -6,14 +6,14 @@
         <h1 class="title is-1">I'm Leonardo</h1>
         <h2 class="subtitle is-2">Welcome to my page</h2>
         <button class="button is-dark is-outlined is-small is-rounded">Projects</button>
-        <button class="button is-dark is-outlined is-small is-rounded">About</button>
+        <button class="button is-dark is-outlined is-small is-rounded">Say hello</button>
       </div>
     </div>
     <!-- dont ask how -->
     <div class="header-bg " data-aos="fade-left">
         <div style="width: 100%; padding-bottom: 66.6667%;"></div>
         <picture>
-            <img src="./../static/header.jpg" />
+            <img src="./../static/surface.jpg" />
         </picture>
     </div>
   </section>

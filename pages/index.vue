@@ -1,8 +1,6 @@
 <template>
   <div>
-    <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
-      <div class="navbar-item has-text-weight-bold"><i class="fas fa-lg fa-code has-margin-right"></i>Leo's page</div>
-    </nav>
+    <Navbar />
 
     <Banner />
 
@@ -15,18 +13,23 @@
 </template>
 
 <script>
+import Navbar from "~/components/Navbar.vue";
 import Timeline from "~/components/Timeline.vue";
 import Banner from "~/components/Banner.vue";
 import Skills from "~/components/Skills.vue";
 import Footer from "~/components/Footer.vue";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+AOS.init();
 
 export default {
   components: {
     Timeline,
     Banner,
     Skills,
-    Footer
+    Footer,
+    Navbar
   }
 };
 </script>

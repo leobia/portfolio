@@ -1,6 +1,6 @@
 <template>
   <section class="hero is-white is-fullheight">
-    <div class="hero-body">
+    <div id="banner" class="hero-body" data-aos="fade-right">
       <div class="container" style="z-index: 1;">
         <h2 class="subtitle">Hi,</h2>
         <h1 class="title is-1">I'm Leonardo</h1>
@@ -10,7 +10,7 @@
       </div>
     </div>
     <!-- dont ask how -->
-    <div class="header-bg ">
+    <div class="header-bg " data-aos="fade-left">
         <div style="width: 100%; padding-bottom: 66.6667%;"></div>
         <picture>
             <img src="./../static/header.jpg" />

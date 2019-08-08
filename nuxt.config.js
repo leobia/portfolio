@@ -42,6 +42,8 @@ export default {
     '@nuxtjs/bulma',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
+
+    'vue-scrollto/nuxt',
   ],
   /*
   ** Axios module configuration

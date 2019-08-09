@@ -2,11 +2,11 @@
   <section class="hero is-white is-fullheight">
     <div id="banner" class="hero-body" data-aos="fade-right">
       <div class="container" style="z-index: 1;">
-        <h2 class="subtitle">Hi,</h2>
-        <h1 class="title is-1">I'm Leonardo</h1>
-        <h2 class="subtitle is-2">Welcome to my page</h2>
-        <button class="button is-dark is-outlined is-small is-rounded">Projects</button>
-        <button class="button is-dark is-outlined is-small is-rounded">Say hello</button>
+        <h2 class="subtitle font-color">Hi,</h2>
+        <h1 class="title is-1 font-color">I'm Leonardo</h1>
+        <h2 class="subtitle is-2 font-color">Welcome to my page</h2>
+        <a class="button is-dark is-outlined is-small font-color">Projects</a>
+        <a class="button is-dark is-outlined is-small font-color" v-scroll-to="{el: '#footer', duration: 1500}">Get in touch</a>
       </div>
     </div>
     <!-- dont ask how -->
@@ -34,11 +34,12 @@
   .header-bg {
     width: 100vw;
   }
+  .font-color {
+    color:white !important;
+  }
 }
 
-.header-bg @media (max-width: 80rem) {
-    width: 100vw;
-}
+
 img {
     position: absolute;
     top: 0px;

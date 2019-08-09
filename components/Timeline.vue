@@ -3,40 +3,48 @@
     <div class="hero-body">
       <div class="container">
         <div class="timeline">
-          <header class="timeline-header" data-aos="fade-right">
-            <span class="tag is-medium is-primary">Start</span>
-          </header>
-          <div class="timeline-item is-primary" data-aos="fade-right">
-            <div class="timeline-marker is-primary"></div>
-            <div class="timeline-content">
-              <p class="heading">January 2016</p>
-              <p>Timeline content - Can include any HTML element</p>
-            </div>
-          </div>
-          <div class="timeline-item is-warning" data-aos="fade-left">
-            <div class="timeline-marker is-warning is-image is-32x32">
-              <img src="http://bulma.io/images/placeholders/32x32.png" />
+          <div class="timeline-item is-dark" data-aos="fade-right">
+            <div class="timeline-marker is-light is-icon">
+              <i class="fa fa-certificate"></i>
             </div>
             <div class="timeline-content">
-              <p class="heading">February 2016</p>
-              <p>Timeline content - Can include any HTML element</p>
+              <p class="heading">July 2015</p>
+              <p>Graduate from <i>Liceo Scientifico</i></p>
             </div>
           </div>
           <header class="timeline-header" data-aos="fade-right">
-            <span class="tag is-primary">2017</span>
+            <span class="tag is-dark">2017</span>
           </header>
-          <div class="timeline-item is-danger"  data-aos="fade-left">
-            <div class="timeline-marker is-danger is-icon">
+          <div class="timeline-item is-dark" data-aos="fade-left">
+            <div class="timeline-marker is-light is-icon">
+              <i class="fa fa-certificate"></i>
+            </div>
+            <div class="timeline-content">
+              <p class="heading">July 2017</p>
+              <p>Graduate from Programming school IFOA</p>
+            </div>
+          </div>
+          <div class="timeline-item is-dark"  data-aos="fade-left">
+            <div class="timeline-marker is-light is-icon">
               <i class="fa fa-flag"></i>
             </div>
             <div class="timeline-content">
-              <p class="heading">March 2017</p>
-              <p>Timeline content - Can include any HTML element</p>
+              <p class="heading">September 2017</p>
+              <p>Hired as developer at Omnia Group</p>
             </div>
           </div>
           <header class="timeline-header" data-aos="fade-right">
-            <span class="tag is-medium is-primary">End</span>
+            <span class="tag is-dark">2019</span>
           </header>
+           <div class="timeline-item is-dark"  data-aos="fade-left">
+            <div class="timeline-marker is-light is-icon">
+              <i class="fa fa-flag"></i>
+            </div>
+            <div class="timeline-content">
+              <p class="heading">May 2019</p>
+              <p>Hired as developer at Bridge Consulting</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -67,5 +67,14 @@ export default {
     */
     extend (config, ctx) {
     }
-  }
+  },
+  /**
+* Gitlab
+*/
+  router: {
+    base: '/portfolio/',  
+  },
+  generate: {
+    dir: 'public',
+  },
 }

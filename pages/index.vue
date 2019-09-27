@@ -30,7 +30,13 @@ export default {
     Skills,
     Footer,
     Navbar
-  }
+  },
+
+  head() {
+    return {
+      title: "Leo's page"
+    };
+  },
 };
 </script>
 

@@ -78,6 +78,6 @@ export default {
 */
   ...routerBase,
   generate: {
-    dir: 'public',
+    dir: 'docs',
   },
 }

@@ -1,3 +1,8 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/portfolio/'
+  }
+} : {}
 
 export default {
   mode: 'spa',
@@ -71,9 +76,7 @@ export default {
   /**
 * Gitlab
 */
-  router: {
-    base: '/portfolio/',  
-  },
+  ...routerBase,
   generate: {
     dir: 'public',
   },

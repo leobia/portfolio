@@ -50,12 +50,12 @@ export default {
         },
         {
           image: "mockup-django.jpg",
-          title: "My github page",
-          description: "You can find more projects on my github...",
+          title: "More coming soon..",
+          description: "You can find all my projects on github...",
           technologyImage: "github.jpg",
-          projectDate: "Work in progress",
+          projectDate: "",
           link: "https://github.com/leobia",
-          invert: true
+          github: true
         }
       ]
     };

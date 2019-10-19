@@ -19,7 +19,7 @@
               ref="techImage"
               class="black-white"
               style="filter: grayscale(100%)"
-              v-bind:class="{ 'invert-color': project.invert}"
+              v-bind:class="{ 'invert-color': project.github}"
               :src="project.technologyImage"
               alt="Technology logo"
             />
@@ -30,11 +30,37 @@
         </div>
       </div>
 
-      <div class="content is-size-7">
-        <span v-show="!hover">{{ project.description }}</span>
-        <button v-show="hover" class="button is-dark is-small font-color">Source code</button>
+      <div class="content is-size-7" v-show="!hover">
+        <span>{{ project.description }}</span>
         <br />
         <time datetime="2016-1-1">{{ project.projectDate }}</time>
+      </div>
+
+      <div class="content has-text-centered" v-show="hover">
+        <a
+          v-show="!project.github"
+          class="button is-small is-dark is-outlined is-inverted"
+          target="_blank"
+          rel="noreferrer"
+          :href="project.link"
+        >
+          <span class="icon is-small">
+            <i class="fas fa-code"></i>
+          </span>
+          <span>Source code</span>
+        </a>
+        <a
+          v-show="project.github"
+          class="button is-small is-dark is-outlined is-inverted"
+          target="_blank"
+          rel="noreferrer"
+          :href="project.link"
+        >
+          <span class="icon is-small">
+            <i class="fab fa-github"></i>
+          </span>
+          <span>Github</span>
+        </a>
       </div>
 
       <div class="go-corner" href="#">
@@ -193,7 +219,7 @@ export default {
   }
 }
 
-.card-content:hover {
+* {
   transition: all 0.3s ease-out;
 }
 

@@ -8,6 +8,8 @@
 
     <Skills />
 
+    <Projects />
+
     <Footer />
   </div>
 </template>
@@ -17,6 +19,7 @@ import Navbar from "~/components/Navbar.vue";
 import Timeline from "~/components/Timeline.vue";
 import Banner from "~/components/Banner.vue";
 import Skills from "~/components/Skills.vue";
+import Projects from "~/components/Projects.vue";
 import Footer from "~/components/Footer.vue";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -29,7 +32,8 @@ export default {
     Banner,
     Skills,
     Footer,
-    Navbar
+    Navbar,
+    Projects
   },
 
   head() {

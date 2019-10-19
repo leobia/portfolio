@@ -16,7 +16,7 @@
     <div class="header-bg" data-aos="fade-left">
       <div style="width: 100%; padding-bottom: 66.6667%;"></div>
       <picture>
-        <img src="./../static/surface.jpg" />
+        <img src="~/static/surface.jpg" />
       </picture>
     </div>
   </section>

@@ -9,7 +9,10 @@
             </div>
             <div class="timeline-content">
               <p class="heading">July 2015</p>
-              <p>Graduate from <i>Liceo Scientifico</i></p>
+              <p>
+                Graduate from
+                <i>Liceo Scientifico</i>
+              </p>
             </div>
           </div>
           <header class="timeline-header" data-aos="fade-right">
@@ -24,7 +27,7 @@
               <p>Graduate from Programming school IFOA</p>
             </div>
           </div>
-          <div class="timeline-item is-dark"  data-aos="fade-left">
+          <div class="timeline-item is-dark" data-aos="fade-left">
             <div class="timeline-marker is-light is-icon">
               <i class="fa fa-flag"></i>
             </div>
@@ -36,7 +39,7 @@
           <header class="timeline-header" data-aos="fade-right">
             <span class="tag is-dark">2019</span>
           </header>
-           <div class="timeline-item is-dark"  data-aos="fade-left">
+          <div class="timeline-item is-dark" data-aos="fade-left">
             <div class="timeline-marker is-light is-icon">
               <i class="fa fa-flag"></i>
             </div>

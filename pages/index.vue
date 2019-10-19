@@ -18,8 +18,8 @@ import Timeline from "~/components/Timeline.vue";
 import Banner from "~/components/Banner.vue";
 import Skills from "~/components/Skills.vue";
 import Footer from "~/components/Footer.vue";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 AOS.init();
 
@@ -36,7 +36,7 @@ export default {
     return {
       title: "Leo's page"
     };
-  },
+  }
 };
 </script>
 

@@ -11,12 +11,20 @@
             <div class="box small-border-radius">
               <h3 class="title is-6 has-text-centered">Back-end</h3>
               <div class="tags">
-                <span class="tag is-dark" v-for="(skill, index) in backEndSkills" :key="index">{{skill}}</span>
+                <span
+                  class="tag is-dark"
+                  v-for="(skill, index) in backEndSkills"
+                  :key="index"
+                >{{skill}}</span>
               </div>
               <hr />
               <h3 class="title is-6 has-text-centered">Front-end</h3>
               <div class="tags">
-                <span class="tag is-dark" v-for="(skill, index) in frontEndSkills" :key="index">{{skill}}</span>
+                <span
+                  class="tag is-dark"
+                  v-for="(skill, index) in frontEndSkills"
+                  :key="index"
+                >{{skill}}</span>
               </div>
               <hr />
               <h3 class="title is-6 has-text-centered">Development Tools</h3>
@@ -32,12 +40,12 @@
 </template>
 
 <style scoped>
-    .tag {
-        width: 6em;
-    }
-    .tags {
-        justify-content: center;
-    }
+.tag {
+  width: 6em;
+}
+.tags {
+  justify-content: center;
+}
 </style>
 
 <script>

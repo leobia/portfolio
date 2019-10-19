@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-demo-bulma",
+  "name": "leo-bia-portfolio",
   "version": "1.0.0",
-  "description": "My legendary Nuxt.js project",
+  "description": "My portfolio",
   "author": "Bianco, Leonardo",
   "private": true,
   "scripts": {
